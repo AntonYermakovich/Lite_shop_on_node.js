@@ -1,0 +1,19 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mustard-ui": "^1.0.4",
+    "mysql": "^2.17.0",
+    "nodemailer": "^6.4.5",
+    "nodemon": "^2.0.2",
+    "pug": "^2.0.4"
+  }
+}

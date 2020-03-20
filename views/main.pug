@@ -1,0 +1,14 @@
+include header
+
+
+h2 My app
+
+each val, index in goods 
+	p #{val.name}
+	img(
+		src='images/'+val.image
+		class='test'
+	)
+
+include nav
+include footer
